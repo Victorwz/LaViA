@@ -41,16 +41,17 @@ The instruction data generation pipeline consists of the following steps:
 
 
 ### Video Instruction Tuning
-We provide a video instruction tuning codebase to fine-tune your own task guidance assistant. The codebase is available at [LLaVA-Video-Llama-3](https://github.com/Victorwz/LLaVA-Video-Llama-3). Please refer to the README file of this repo for video instruction tuning guidance. 
+We provide a video instruction tuning codebase to fine-tune your own task guidance assistant. The codebase is available at [LaViA-video-sft](LaViA-video-sft/). Please refer to the [README file](LaViA-video-sft/README.md) for video instruction tuning guidance. 
 
 <br>
-<img src="assets/model.png" width="300" />
+<img src="assets/model.png" width="500" />
 
 ## Inference on Task Guidance Generation
 Our fine-tuned **LAVIA-llama-3-8b** model is available at 
 
-If you would like to launch a LaViA server, please launch the gradio demo server in [LLaVA-Video-Llama-3](https://github.com/Victorwz/LLaVA-Video-Llama-3).
+If you would like to launch a LaViA server, please launch the gradio demo server.
 ```bash
+cd LaViA-video-sft
 CUDA_VISIBLE_DEVICES=0 python -m llava.serve.gradio_web_server --controller http://localhost:10000 --model-list-mode reload --share
 ```
 
