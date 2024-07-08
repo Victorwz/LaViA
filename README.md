@@ -56,7 +56,9 @@ CUDA_VISIBLE_DEVICES=0 python -m llava.serve.gradio_web_server --controller http
 
 ### A Usage Sample
 We start with a video sample from Youtube on Honda Engine Oil Change task:
-https://github.com/Victorwz/LaViA/blob/main/samples/honda_engine_oil_change.mp4
+
+https://github.com/Victorwz/LaViA/assets/32738514/caa18f5e-f628-423c-bde3-e0516a8d34a6
+
 
 <!-- [![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=vmCyqhjMZjU) -->
 
