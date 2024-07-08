@@ -56,8 +56,9 @@ CUDA_VISIBLE_DEVICES=0 python -m llava.serve.gradio_web_server --controller http
 
 ### A Usage Sample
 We start with a video sample from Youtube on Honda Engine Oil Change task:
+https://github.com/Victorwz/LaViA/blob/main/samples/honda_engine_oil_change.mp4
 
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=vmCyqhjMZjU)
+<!-- [![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=vmCyqhjMZjU) -->
 
 ```bash
 export OPENAI_API_KEY="your_api_key"
@@ -72,8 +73,8 @@ If you use our dataset or models in your research, please cite us as follows:
 
 ```bibtex
 @article{wang2024LaViA,
-      title={LaViA: Fine-Tuning Large Vision-Language Models for Task Guidance}, 
-      url={https://github.com/Victorwz/video2action},
+      title={LaViA: Fine-Tuning Multimodal LLMs as Task Assistants with Video Instructions}, 
+      url={https://github.com/Victorwz/LaViA},
       author={Wang, Weizhi and Luo, Xuan and Yan, Xifeng},
       year={2024},
 }
