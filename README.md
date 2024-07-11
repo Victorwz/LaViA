@@ -56,7 +56,7 @@ CUDA_VISIBLE_DEVICES=0 python -m llava.serve.gradio_web_server --controller http
 ```
 
 ### A Usage Sample
-We start with a video sample from Youtube on Honda Engine Oil Change task:
+We start with a video sample from Youtube on a Honda Engine Oil Change task:
 
 https://github.com/Victorwz/LaViA/assets/32738514/caa18f5e-f628-423c-bde3-e0516a8d34a6
 
@@ -68,7 +68,7 @@ export OPENAI_API_KEY="your_api_key"
 python data_construction.py
 ```
 
-The output guidenline transcription and video instructions are available in [transcription](samples/honda_engine_oil_change_transcription.txt) and [instructions](samples/0_0.json).
+The output guideline transcription and video instructions are available at [transcription](samples/honda_engine_oil_change_transcription.txt) and [instructions](samples/0_0.json).
 
 ## How to Cite Us
 
