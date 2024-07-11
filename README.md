@@ -34,10 +34,10 @@ The instruction data generation pipeline consists of the following steps:
     We adopt the latest OpenAI-Whisper API to get the task instruction transcription from video narratives. The corresponding code, ``get_transctiption(),`` is located in the [data_construction.py](data_construction.py).
 
 2. **Video Clip Split**:
-   We adopt a frame sampling rate, in which we sample 1 frame every 30 frames from the video clip. We fix the parameter that each video instruction should contain 15 sampled frames. Thus, the whole video is split into a sequence of 450-frame length video clips for further annotation. We do not apply any overlapping during splitting the video into video clips. 
+   We adopt a frame sampling rate, in which we sample 1 frame every 30 frames from the video clip. We fix the parameter that each video instruction should contain 15 sampled frames. Thus, the whole video is split into a sequence of 450-frame length video clips for further annotation. 
 
 3. **Action Annotation with GPT-4o**:
-    Then we prompting the OpenAI GPT-4o API with the sampled sequential 15 video frames, the task guidance transcription, and the task prompt as the inputs. We enable GPT-4o to describe the current action/step shown in the video clip and then anaylyze and predict the next action/step to perform as guidance. The video instruction data is annotated as the json file. 
+    We prompt the OpenAI GPT-4o API with the sampled sequential 15 video frames, the task guidance transcription, and the task prompt as the inputs. We enable GPT-4o to describe the current action/step shown in the video clip and then anaylyze and predict the next action/step to perform as guidance. The video instruction data is annotated as the json file. 
 
 
 ### Video Instruction Tuning
@@ -84,7 +84,7 @@ If you use our dataset or models in your research, please cite us as follows:
 ```
 
 ## License
-This project is licensed under the [CC BY-NC 2.0 License](https://creativecommons.org/licenses/by-nc/2.0/deed.en). Please give us appropriate credits, i.e. mentioning our framework name, in your work or development. 
+This project is licensed under the [CC BY-NC 2.0 License](https://creativecommons.org/licenses/by-nc/2.0/deed.en). Please refer our work, i.e. mentioning our framework name, in your study or development.  Don't forget to give us a star if you find it is useful. 
 
 ## Acknowledgment
-**LaViA** is led by UCSB Xifeng Yan's group.  It is a part of the “Autonomous Multimodal Ingestion for Goal-Oriented Support” (AMIGOS) team directed by Dr. Charles Ortiz at PARC/SRI.  AMIGOS is funded by [DARPA Perceptually-enabled Task Guidance (PTG) program](https://www.darpa.mil/program/perceptually-enabled-task-guidance). 
+**LaViA** is led by Weizhi Wang at Xifeng Yan's lab @UCSB.  It is a part of the “Autonomous Multimodal Ingestion for Goal-Oriented Support” (AMIGOS) team directed by Dr. Charles Ortiz at PARC/SRI.  AMIGOS is funded by [DARPA Perceptually-enabled Task Guidance (PTG) program](https://www.darpa.mil/program/perceptually-enabled-task-guidance). 
