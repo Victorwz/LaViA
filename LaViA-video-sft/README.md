@@ -1,8 +1,6 @@
-# LLaVA-LLaMA-3
+# LaViA-video-sft
 
 This repo supports the video understanding based on Llama-3-8b LLM backbone following LLaVA multimodal LLM architecture.
-
-🤝Community Contributions: [[weizhiwang/LLaVA-Video-Llama-3](https://huggingface.co/weizhiwang/LLaVA-Video-Llama-3)]
 
 ## Updates
 - This repo is upgraded to llava-next codebase to also support phi-3, llama-3 and mistral-v0.1 models.
@@ -26,7 +24,7 @@ pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
 
-### Fine-Tune Your Own LLaVA-Video-Llama-3 Model
+### Fine-Tune Your Own LaViA Video Task Assistant Model
 Please follow the updated fine-tuning script with DeepSpeed ZeRO-3: [`finetune.sh`](https://github.com/Victorwz/LLaVA-Llama-3/blob/main/scripts/finetune.sh). The following parameters are updated to accomodate Llama-3:
 - `--version`: v3, which adopts the tokenization and preprocessing function with Llama-3 tokenizer.
 
