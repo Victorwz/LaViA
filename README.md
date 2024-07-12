@@ -47,7 +47,7 @@ We provide a video instruction tuning codebase to fine-tune your own task guidan
 <img src="assets/model.png" width="500" />
 
 ## Inference on Task Guidance Generation
-Our fine-tuned **LAVIA-llama-3-8b** model on the above task is available at TBA.
+Our fine-tuned **LAVIA-llama-3-8b** model on the above task is available at [LaViA-Llama-3-8b](https://huggingface.co/weizhiwang/LaViA-Llama-3-8b).
 
 If you would like to launch a LaViA server, please launch the gradio demo server.
 ```bash
@@ -75,7 +75,7 @@ The output guideline transcription and video instructions are available at [tran
 If you use our dataset or models in your research, please cite us as follows:
 
 ```bibtex
-@article{wang2024LaViA,
+@misc{wang2024LaViA,
       title={LaViA: Fine-Tuning Multimodal LLMs as Task Assistants with Video Instructions}, 
       url={https://github.com/Victorwz/LaViA},
       author={Wang, Weizhi and Luo, Xuan and Yan, Xifeng},
