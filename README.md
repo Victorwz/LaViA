@@ -87,4 +87,4 @@ If you use our dataset or models in your research, please cite us as follows:
 This project is licensed under the [CC BY-NC 2.0 License](https://creativecommons.org/licenses/by-nc/2.0/deed.en). Please refer to our work, i.e. mentioning our framework name, in your study or development.  Don't forget to give us a star if you find it is useful. 
 
 ## Acknowledgment
-**LaViA** is led by Weizhi Wang at Xifeng Yan's lab @UCSB.  It is a part of the “Autonomous Multimodal Ingestion for Goal-Oriented Support” (AMIGOS) team directed by Dr. Charles Ortiz at PARC/SRI.  AMIGOS is funded by [DARPA Perceptually-enabled Task Guidance (PTG) program](https://www.darpa.mil/program/perceptually-enabled-task-guidance). 
+**LaViA** is led by Weizhi Wang (weizhiwang@ucsb.edu) at [Xifeng Yan](https://sites.cs.ucsb.edu/~xyan)'s lab @UCSB.  It is a part of the “Autonomous Multimodal Ingestion for Goal-Oriented Support” (AMIGOS) team directed by Dr. Charles Ortiz at PARC/SRI.  AMIGOS is funded by [DARPA Perceptually-enabled Task Guidance (PTG) program](https://www.darpa.mil/program/perceptually-enabled-task-guidance). 
